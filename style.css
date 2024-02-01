@@ -1,0 +1,234 @@
+
+
+
+.popup-form .popheading h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-bottom: 15px;
+}
+.popup-form .poppara p {
+    color: #e6e6e6;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.modal-header{
+    border: none;
+    height: 15px;
+    padding:0 !important;
+}
+
+.modal-content {
+     background: linear-gradient(to left, #262626 50%, #171717 50%);
+     border-radius: 15px;
+     
+ padding-bottom: 30px;
+ width: 650px;
+}
+
+.btn-close{
+    
+
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    right: 9px;
+    top: 5px
+}
+
+/* Add this CSS for the close button */
+.modal-header .btn-close {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+.ford .mustpara{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 1.2rem;
+}
+.ford {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.ford .popimg img {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.popparadown p{
+    color: #d1dbd5;
+    font-size: 14px;
+}
+.popparadown p strong{
+    color: #e5e5e5;
+}
+
+.popsubbtn {
+        background: #0088cc;
+        border-radius: 10px;
+        text-align: center;
+    
+}
+.popsubbtn button{
+    background: #0088cc;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        padding: 15px;
+        font-size: 14px;
+    
+}
+
+ .popbtn .whtabtn{
+    background-color: #25d366;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ .popbtn .telebtn{
+    background-color: #0088cc;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ .popbtn .instabtn{
+    background-color: #E1306C;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ .popbtn .phnbtn{
+    background-color: #078ed2;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.leftpoppara p {
+    font-size: 12px;
+    color: #fff;
+}
+ 
+
+.popbtn {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.popbtn {
+    font-size: 18px;
+    font-weight: 500;
+}
+.popbtn .fa-brands, .fa-solid {
+   
+    margin-right: 12px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* .popbtn .fa-solid {
+    
+    margin-right: 12px;
+    font-size: 30px;
+    text-align: center;
+} */
+form {
+    width: 100%;
+}
+
+.inputForm {
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.inputForm {
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    padding: 10px 4px 0px;
+    width: 91%;
+    padding: 9px;
+    transition: border-color 0.3s ease, color 0.3s ease; 
+    color: white;
+  
+}
+
+
+.inputForm:focus {
+    border-color: blue;
+    color: white;
+    outline: none;
+}
+
+.inputForm:focus::placeholder,
+.inputForm:not(:placeholder-shown)::placeholder {
+    transform: translateY(-100%) translateX(-3%);
+    border-color: blue;
+    font-size: 0.75em;
+    transition: all 0.3s ease-in-out, color 0.25s ease;
+   color:white;
+}
+
+textarea.inputFormmsg {
+    width: 90%;
+    border-radius: 6px;
+    height: 60px;
+    font-size: 14px;
+    color: gray;
+}
+
+.inputFormmsg:focus {
+    border-color: blue; 
+    outline: none;
+}
+
+
+
+/* Your existing styles */
+
+.modal-backdrop {
+    opacity: 0.7;
+    backdrop-filter: blur(10px); 
+    background: transparent;
+}
+
+/* Remove the fade animation */
+.modal.fade .modal-dialog {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
